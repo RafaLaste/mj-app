@@ -396,7 +396,7 @@ function Compras() {
                                                     timeFormat="HH:mm"
                                                     timeIntervals={1}
                                                     timeCaption="Hora"
-                                                    className="form__input"
+                                                    className="p-2 form__input"
                                                     placeholderText="Data e Hora* __/__/____  hh:mm"
                                                     maxDate={new Date()}
                                                 />
