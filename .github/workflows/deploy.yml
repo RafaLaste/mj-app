@@ -25,7 +25,7 @@ jobs:
         run: npm ci
 
       - name: Build do projeto
-        run: npm run build
+        run: npm run build --verbose
         env:
           REACT_APP_API_URL: ${{ secrets.REACT_APP_API_URL }}
 
