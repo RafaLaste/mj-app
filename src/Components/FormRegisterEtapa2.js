@@ -185,11 +185,11 @@ export const FormRegisterEtapa2 = () => {
                             </div>
                             <div className="form__row clearfix checkArea">
                                 <input name="regulamento" onChange={handleChange} checked={userData.regulamento} type="checkbox" className="form__control--checkbox" tabindex="0" />
-                                <p>Li e concordo com os termos do <a href="/politica-privacidade" target='_blank' className="footer__text-link">Regulamento da Promoção</a> indicado no Certificado de Autorização SEAE/ME Nº 04.020643/2022.</p>
+                                <p>Li e concordo com os termos do <a href="/promocao/politica-privacidade" target='_blank' className="footer__text-link">Regulamento da Promoção</a> indicado no Certificado de Autorização SEAE/ME Nº 04.020643/2022.</p>
                             </div>
                             <div className="form__row clearfix checkArea">
                                 <input name="privacidade" onChange={handleChange} checked={userData.privacidade} type="checkbox" className="form__control--checkbox" tabindex="0" />
-                                <p>Li o Aviso de <a href="/politica-privacidade" target='_blank' className="footer__text-link">Privacidade da Promoção</a> e estou ciente sobre o tratamento dos meus dados pessoais e demais termos.</p>
+                                <p>Li o Aviso de <a href="/promocao/regulamento" target='_blank' className="footer__text-link">Privacidade da Promoção</a> e estou ciente sobre o tratamento dos meus dados pessoais e demais termos.</p>
                             </div>
                             <div className="form__control form__control--submit">
 
