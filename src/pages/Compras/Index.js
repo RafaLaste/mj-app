@@ -353,7 +353,7 @@ function Compras() {
                 </div>
 
                 {isOn ? (
-                    tokenData.liberado <= 10 ? (
+                    tokenData.liberado ? (
                         <div className="form-container content content--x-small formCupons">
                             <form onSubmit={handleSubmit} className="space-y-4">
                                 <img src={`/promocao/assets/img/aviao-contato.png`} className="aviaoG moveImg" alt="Avião" />
