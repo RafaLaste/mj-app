@@ -472,97 +472,97 @@ function Compras() {
                                             {buyErrorData.cnpj_loja && buyErrorData.cnpj_loja[0] && (<span className="flex justify-between border-b border-red-500 text-xs 2xl:text-sm text-red-500 tracking-tight 2xl:tracking-normal mt-1 pb-1 pl-2">{buyErrorData.cnpj_loja[0]} <span onClick={() => setBuyErrorData(prevData => ({ ...prevData, cnpj_loja: [] }))} className="rotate-45 -my-2 p-2 cursor-pointer">+</span></span>)}
                                         </div>
 
-                                        <div className="w-full grid grid-cols-5 gap-4">
-                                            <div className='w-full col-span-3'>
-                                                <div className="relative flex items-center">
-                                                    <NumericFormat
-                                                        thousandSeparator="."
-                                                        decimalSeparator=","
-                                                        prefix="R$ "
-                                                        placeholder="a"
-                                                        allowNegative={false}
-                                                        onClick={() => setBuyErrorData(prevData => ({ ...prevData, valor: [] }))}
-                                                        fixedDecimalScale
-                                                        decimalScale={2}
-                                                        value={buyData.valor}
-                                                        onValueChange={(values) => {
-                                                            const { value } = values;
-                                                            setBuyData((prev) => ({ ...prev, valor: value }));
-                                                        }}
-                                                        onFocus={() => setShowTooltip('valor')}
-                                                        onBlur={() => setShowTooltip(null)}
-                                                        className="p-2 border rounded w-full form__input"
-                                                        placeholder="Valor compra*"
-                                                    />
+                                        <div className='w-full'>
+                                            <div className="relative flex items-center">
+                                                <NumericFormat
+                                                    thousandSeparator="."
+                                                    decimalSeparator=","
+                                                    prefix="R$ "
+                                                    placeholder="a"
+                                                    allowNegative={false}
+                                                    onClick={() => setBuyErrorData(prevData => ({ ...prevData, valor: [] }))}
+                                                    fixedDecimalScale
+                                                    decimalScale={2}
+                                                    value={buyData.valor}
+                                                    onValueChange={(values) => {
+                                                        const { value } = values;
+                                                        setBuyData((prev) => ({ ...prev, valor: value }));
+                                                    }}
+                                                    onFocus={() => setShowTooltip('valor')}
+                                                    onBlur={() => setShowTooltip(null)}
+                                                    className="p-2 border rounded w-full form__input"
+                                                    placeholder="Valor compra*"
+                                                />
 
-                                                    <div className="absolute right-2">
-                                                        <button
-                                                            type="button"
-                                                            className="peer"
-                                                            onClick={() =>
-                                                                handleOpenHelpModal(
-                                                                    'Confira o valor da compra destacado em vermelho.',
-                                                                    'https://promocao-media.marcusjames.com.br/uploads/examples/cupom-valor.png'
-                                                                )
-                                                            }
-                                                        >
-                                                            <FontAwesomeIcon icon={faInfoCircle} className="text-neutral-800 text-lg opacity-80 transition-all hover:opacity-100" />
-                                                        </button>
+                                                <div className="absolute right-2">
+                                                    <button
+                                                        type="button"
+                                                        className="peer"
+                                                        onClick={() =>
+                                                            handleOpenHelpModal(
+                                                                'Confira o valor da compra destacado em vermelho.',
+                                                                'https://promocao-media.marcusjames.com.br/uploads/examples/cupom-valor.png'
+                                                            )
+                                                        }
+                                                    >
+                                                        <FontAwesomeIcon icon={faInfoCircle} className="text-neutral-800 text-lg opacity-80 transition-all hover:opacity-100" />
+                                                    </button>
 
-                                                        <div className={`absolute -right-3 sm:right-auto md:left-1/2 top-full mt-4 w-max md:-translate-x-1/2 transition-all duration-200 ease-out scale-95 ${showTooltip !== 'valor' ? 'pointer-events-none opacity-0' : 'sm:pointer-events-none max-sm:!scale-100 sm:opacity-0'} peer-hover:pointer-events-auto peer-hover:opacity-100 peer-hover:scale-100 z-10`}>
-                                                            <div className="relative bg-tertiary text-neutral-800 px-4 py-2.5 rounded-lg shadow-lg">
-                                                                <span className="text-white text-xs">
-                                                                    Informe o valor total da sua compra,<br /> exatamente como aparece no cupom.
-                                                                </span>
-                                                                <div className="absolute right-3 sm:right-auto -top-2 md:left-1/2 md:-translate-x-1/2 w-4 h-4 bg-tertiary rotate-45"></div>
-                                                            </div>
+                                                    <div className={`absolute -right-3 sm:right-auto md:left-1/2 top-full mt-4 w-max md:-translate-x-1/2 transition-all duration-200 ease-out scale-95 ${showTooltip !== 'valor' ? 'pointer-events-none opacity-0' : 'sm:pointer-events-none max-sm:!scale-100 sm:opacity-0'} peer-hover:pointer-events-auto peer-hover:opacity-100 peer-hover:scale-100 z-10`}>
+                                                        <div className="relative bg-tertiary text-neutral-800 px-4 py-2.5 rounded-lg shadow-lg">
+                                                            <span className="text-white text-xs">
+                                                                Informe o valor total da sua compra,<br /> exatamente como aparece no cupom.
+                                                            </span>
+                                                            <div className="absolute right-3 sm:right-auto -top-2 md:left-1/2 md:-translate-x-1/2 w-4 h-4 bg-tertiary rotate-45"></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                {buyErrorData.valor && buyErrorData.valor[0] && (<span className="flex justify-between border-b border-red-500 text-xs 2xl:text-sm text-red-500 tracking-tight 2xl:tracking-normal mt-1 pb-1 pl-2">{buyErrorData.valor[0]} <span onClick={() => setBuyErrorData(prevData => ({ ...prevData, valor: [] }))} className="rotate-45 -my-2 p-2 cursor-pointer">+</span></span>)}
                                             </div>
-                                            <div className='w-full col-span-2'>
-                                                <div className="relative flex items-center">
-                                                    <input
-                                                        type="number"
-                                                        name="quantidade"
-                                                        placeholder="Qtde*"
-                                                        onClick={() => setBuyErrorData(prevData => ({ ...prevData, quantidade: [] }))}
-                                                        value={buyData.quantidade}
-                                                        onChange={handleChange}
-                                                        onFocus={() => setShowTooltip('quantidade')}
-                                                        onBlur={() => setShowTooltip(null)}
-                                                        className="p-2 border rounded w-full form__input"
-                                                    />
-
-                                                    <div className="absolute right-2">
-                                                        <button
-                                                            type="button"
-                                                            className="peer"
-                                                            onClick={() =>
-                                                                handleOpenHelpModal(
-                                                                    'Confira a quantidade SOMENTE DE VINHOS MARCUS JAMES comprados (desconsidere outros produtos da nota).',
-                                                                    'https://promocao-media.marcusjames.com.br/uploads/examples/cupom-qtde.png'
-                                                                )
-                                                            }
-                                                        >
-                                                            <FontAwesomeIcon icon={faInfoCircle} className="text-neutral-800 text-lg opacity-80 transition-all hover:opacity-100" />
-                                                        </button>
-
-                                                        <div className={`absolute -right-3 sm:right-auto md:left-1/2 top-full mt-4 w-max md:-translate-x-1/2 transition-all duration-200 ease-out scale-95 ${showTooltip !== 'quantidade' ? 'pointer-events-none opacity-0' : 'sm:pointer-events-none max-sm:!scale-100 sm:opacity-0'} peer-hover:pointer-events-auto peer-hover:opacity-100 peer-hover:scale-100 z-10`}>
-                                                            <div className="relative bg-tertiary text-neutral-800 px-4 py-2.5 rounded-lg shadow-lg">
-                                                                <span className="text-white text-xs">
-                                                                    Quantidade <b>SOMENTE DE VINHOS MARCUS JAMES</b> <br />comprados (desconsidere outros produtos da nota).
-                                                                </span>
-                                                                <div className="absolute right-3 sm:right-auto -top-2 md:left-1/2 md:-translate-x-1/2 w-4 h-4 bg-tertiary rotate-45"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                {buyErrorData.quantidade && buyErrorData.quantidade[0] && (<span className="flex justify-between border-b border-red-500 text-xs 2xl:text-sm text-red-500 tracking-tight 2xl:tracking-normal mt-1 pb-1 pl-2">{buyErrorData.quantidade[0]} <span onClick={() => setBuyErrorData(prevData => ({ ...prevData, quantidade: [] }))} className="rotate-45 -my-2 p-2 cursor-pointer">+</span></span>)}
-                                            </div>
+                                            {buyErrorData.valor && buyErrorData.valor[0] && (<span className="flex justify-between border-b border-red-500 text-xs 2xl:text-sm text-red-500 tracking-tight 2xl:tracking-normal mt-1 pb-1 pl-2">{buyErrorData.valor[0]} <span onClick={() => setBuyErrorData(prevData => ({ ...prevData, valor: [] }))} className="rotate-45 -my-2 p-2 cursor-pointer">+</span></span>)}
                                         </div>
                                     </div>
+                                    
+                                    <div className='w-full mb-5'>
+                                        <div className="relative flex items-center">
+                                            <input
+                                                type="number"
+                                                name="quantidade"
+                                                placeholder="Quantidade de vinhos adquiridos*"
+                                                onClick={() => setBuyErrorData(prevData => ({ ...prevData, quantidade: [] }))}
+                                                value={buyData.quantidade}
+                                                onChange={handleChange}
+                                                onFocus={() => setShowTooltip('quantidade')}
+                                                onBlur={() => setShowTooltip(null)}
+                                                className="p-2 border rounded w-full form__input"
+                                            />
+
+                                            <div className="absolute right-2">
+                                                <button
+                                                    type="button"
+                                                    className="peer"
+                                                    onClick={() =>
+                                                        handleOpenHelpModal(
+                                                            'Confira a quantidade SOMENTE DE VINHOS MARCUS JAMES comprados (desconsidere outros produtos da nota).',
+                                                            'https://promocao-media.marcusjames.com.br/uploads/examples/cupom-qtde.png'
+                                                        )
+                                                    }
+                                                >
+                                                    <FontAwesomeIcon icon={faInfoCircle} className="text-neutral-800 text-lg opacity-80 transition-all hover:opacity-100" />
+                                                </button>
+
+                                                <div className={`absolute -right-3 sm:right-auto md:left-1/2 top-full mt-4 w-max md:-translate-x-1/2 transition-all duration-200 ease-out scale-95 ${showTooltip !== 'quantidade' ? 'pointer-events-none opacity-0' : 'sm:pointer-events-none max-sm:!scale-100 sm:opacity-0'} peer-hover:pointer-events-auto peer-hover:opacity-100 peer-hover:scale-100 z-10`}>
+                                                    <div className="relative bg-tertiary text-neutral-800 px-4 py-2.5 rounded-lg shadow-lg">
+                                                        <span className="text-white text-xs">
+                                                            Quantidade <b>SOMENTE DE VINHOS MARCUS JAMES</b> <br />comprados (desconsidere outros produtos da nota).
+                                                        </span>
+                                                        <div className="absolute right-3 sm:right-auto -top-2 md:left-1/2 md:-translate-x-1/2 w-4 h-4 bg-tertiary rotate-45"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {buyErrorData.quantidade && buyErrorData.quantidade[0] && (<span className="flex justify-between border-b border-red-500 text-xs 2xl:text-sm text-red-500 tracking-tight 2xl:tracking-normal mt-1 pb-1 pl-2">{buyErrorData.quantidade[0]} <span onClick={() => setBuyErrorData(prevData => ({ ...prevData, quantidade: [] }))} className="rotate-45 -my-2 p-2 cursor-pointer">+</span></span>)}
+                                    </div>
+
                                     <div className='w-full mb-5'>
                                         <div className="relative flex items-center">
                                             <Select
