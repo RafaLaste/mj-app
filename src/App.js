@@ -47,7 +47,7 @@ const App = () => {
                 <Router>
                     <BodyClassDefault />
                     <Routes>
-                        <Route path="/promocao/manager/login" element={<AdminLogin />} />
+                        {/* <Route path="/promocao/manager/login" element={<AdminLogin />} /> */}
                         <Route
                             path="/promocao/alterar-senha/:token"
                             element={
