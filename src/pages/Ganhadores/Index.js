@@ -16,11 +16,11 @@ function Ganhadores() {
         {
             titulo: '1º sorteio',
             data: [
-                { data: '04/06/2024', numero: '98543', nome: 'Carlos Alberto Taborda' },
-                { data: '04/06/2024', numero: '98398', nome: 'Janaina' },
-                { data: '04/06/2024', numero: '98494', nome: 'Jessyca Chrystian' },
-                { data: '04/06/2024', numero: '98537', nome: 'Thainara Vieira da Silva' },
-                { data: '04/06/2024', numero: '98499', nome: 'Alexandre Machado' },
+                { data: '04/06/2025', numero: '98543', nome: 'Carlos Alberto Taborda' },
+                { data: '04/06/2025', numero: '98398', nome: 'Janaina' },
+                { data: '04/06/2025', numero: '98494', nome: 'Jessyca Chrystian' },
+                { data: '04/06/2025', numero: '98537', nome: 'Thainara Vieira da Silva' },
+                { data: '04/06/2025', numero: '98499', nome: 'Alexandre Machado' },
             ]
         },
         // {
