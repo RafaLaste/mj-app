@@ -16,48 +16,48 @@ function Ganhadores() {
         {
             titulo: '1º sorteio',
             data: [
-                { data: '29/06/2024', numero: '37568', nome: 'Mário Francisco Winter' },
-                { data: '29/06/2024', numero: '37583', nome: 'Saulo de Souza Mizutani' },
-                { data: '29/06/2024', numero: '37597', nome: 'Eneo José Leite Coelho' },
-                { data: '29/06/2024', numero: '37610', nome: 'Vitorio Czepula' },
-                { data: '29/06/2024', numero: '37617', nome: 'Hardy Ivano Riffel' },
+                { data: '04/06/2024', numero: '98543', nome: 'Carlos Alberto Taborda' },
+                { data: '04/06/2024', numero: '98398', nome: 'Janaina' },
+                { data: '04/06/2024', numero: '98494', nome: 'Jessyca Chrystian' },
+                { data: '04/06/2024', numero: '98537', nome: 'Thainara Vieira da Silva' },
+                { data: '04/06/2024', numero: '98499', nome: 'Alexandre Machado' },
             ]
         },
-        {
-            titulo: '2º sorteio',
-            data: [
-                { data: '30/07/2024', numero: '86015', nome: 'Gustavo Alberto dos Passos Mueller' },
-                { data: '30/07/2024', numero: '86029', nome: 'Ronei de Almeida Sampaio' },
-                { data: '30/07/2024', numero: '86100', nome: 'Luis Adriano Leite' },
-                { data: '30/07/2024', numero: '86127', nome: 'Hetel Bongini' },
-                { data: '30/07/2024', numero: '86128', nome: 'Isaac Alves da Silva' },
-            ]
-        },
-        {
-            titulo: '3º sorteio',
-            data: [
-                { data: '24/08/2024', numero: '7869', nome: 'Jaimir Antonio Benvenutti' },
-                { data: '24/08/2024', numero: '7873', nome: 'Rosmari Hochmuller Fogaça' },
-                { data: '24/08/2024', numero: '7874', nome: 'Fabio Rogerio Felipe' },
-                { data: '24/08/2024', numero: '7875', nome: 'Edenir Loureiro' },
-                { data: '24/08/2024', numero: '7876', nome: 'Douglas Cezimbra Severo Rossini Brum' },
-                { data: '24/08/2024', numero: '7880', nome: 'Silvana Borges Coareli' },
-                { data: '24/08/2024', numero: '7881', nome: 'Seidi Ueta' },
-                { data: '24/08/2024', numero: '7883', nome: 'Hanniel Menezes Marques' },
-                { data: '24/08/2024', numero: '7885', nome: 'Marcos Pimentel Dandolini' },
-                { data: '24/08/2024', numero: '7887', nome: 'Luzia Borges dos Santos' },
-            ]
-        },
-        {
-            titulo: '4º sorteio',
-            data: [
-                { data: '13/09/2024', numero: '81655', nome: 'Natalia Felix Oliveira' },
-                { data: '13/09/2024', numero: '81669', nome: 'Silvina Figueiredo Porto' },
-                { data: '13/09/2024', numero: '81691', nome: 'Mirella Panizzi' },
-                { data: '13/09/2024', numero: '81704', nome: 'Larissa Massruhá Silva' },
-                { data: '13/09/2024', numero: '81712', nome: 'Shirley Lobo' },
-            ]
-        },
+        // {
+        //     titulo: '2º sorteio',
+        //     data: [
+        //         { data: '30/07/2024', numero: '86015', nome: 'Gustavo Alberto dos Passos Mueller' },
+        //         { data: '30/07/2024', numero: '86029', nome: 'Ronei de Almeida Sampaio' },
+        //         { data: '30/07/2024', numero: '86100', nome: 'Luis Adriano Leite' },
+        //         { data: '30/07/2024', numero: '86127', nome: 'Hetel Bongini' },
+        //         { data: '30/07/2024', numero: '86128', nome: 'Isaac Alves da Silva' },
+        //     ]
+        // },
+        // {
+        //     titulo: '3º sorteio',
+        //     data: [
+        //         { data: '24/08/2024', numero: '7869', nome: 'Jaimir Antonio Benvenutti' },
+        //         { data: '24/08/2024', numero: '7873', nome: 'Rosmari Hochmuller Fogaça' },
+        //         { data: '24/08/2024', numero: '7874', nome: 'Fabio Rogerio Felipe' },
+        //         { data: '24/08/2024', numero: '7875', nome: 'Edenir Loureiro' },
+        //         { data: '24/08/2024', numero: '7876', nome: 'Douglas Cezimbra Severo Rossini Brum' },
+        //         { data: '24/08/2024', numero: '7880', nome: 'Silvana Borges Coareli' },
+        //         { data: '24/08/2024', numero: '7881', nome: 'Seidi Ueta' },
+        //         { data: '24/08/2024', numero: '7883', nome: 'Hanniel Menezes Marques' },
+        //         { data: '24/08/2024', numero: '7885', nome: 'Marcos Pimentel Dandolini' },
+        //         { data: '24/08/2024', numero: '7887', nome: 'Luzia Borges dos Santos' },
+        //     ]
+        // },
+        // {
+        //     titulo: '4º sorteio',
+        //     data: [
+        //         { data: '13/09/2024', numero: '81655', nome: 'Natalia Felix Oliveira' },
+        //         { data: '13/09/2024', numero: '81669', nome: 'Silvina Figueiredo Porto' },
+        //         { data: '13/09/2024', numero: '81691', nome: 'Mirella Panizzi' },
+        //         { data: '13/09/2024', numero: '81704', nome: 'Larissa Massruhá Silva' },
+        //         { data: '13/09/2024', numero: '81712', nome: 'Shirley Lobo' },
+        //     ]
+        // },
     ];
 
     return (

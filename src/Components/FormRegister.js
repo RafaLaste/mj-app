@@ -118,7 +118,7 @@ export const FormRegister = () => {
                                     type="text"
                                     id="nome"
                                     name="nome"
-                                    placeholder="Nome"
+                                    placeholder="Nome completo"
                                     className="form__input"
                                 />
                                 {userErrorData.nome && userErrorData.nome[0] && (<span className="flex justify-between border-b border-red-500 text-xs 2xl:text-sm text-red-500 tracking-tight 2xl:tracking-normal mt-1 pb-1 pl-2">{userErrorData.nome[0]} <span onClick={() => setUserErrorData(prevData => ({ ...prevData, nome: [] }))} className="rotate-45 -my-2 p-2 cursor-pointer">+</span></span>)}
