@@ -2850,8 +2850,8 @@ p:nth-child(7) .text {
         margin: 0 !important;
     }
 
-    .menu__item+.menu__item {
-        margin: 15px 0 0 0;
+    .menu__navigation .menu__item+.menu__item {
+        margin: 12px 0 0 0 !important;
     }
 
     .menu__link {
@@ -2920,7 +2920,7 @@ p:nth-child(7) .text {
     header .menu__items {
         flex-direction: column !important;
         height: auto !important;
-        padding-top: 40px;
+        padding-top: 20px;
         float: none !important;
     }
 
@@ -3039,6 +3039,13 @@ p:nth-child(7) .text {
         display: none;
     }
 
+    .btnParticipe .menu__link--register {
+        padding: 10px 45px !important;
+    }
+    .menu__link--login {
+        padding: 8px 18px !important;
+    }
+
     .form .aviaoLogin {
         display: none;
 
@@ -3075,7 +3082,13 @@ p:nth-child(7) .text {
     }
 
     .formMenu .form__input {
-        height: 50px !important;
+        height: 45px !important;
+    }
+    .formMenu .form__control {
+        margin-bottom: 10px;
+    }
+    .formMenu p.recuperarSenha {
+        margin-top: 10px;
     }
 
     .formMenu p.recuperarSenha {

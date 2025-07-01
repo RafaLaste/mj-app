@@ -30,7 +30,7 @@ export const Premios = () => {
                             R$ 10.000,00
                             <br /> em vinhos
                         </h1>
-                        <p>São 20 vales-compras para uso<br />na loja virtual da Vinícola Aurora</p>
+                        <p>São 20 vales-compra para uso<br />na loja virtual da Vinícola Aurora</p>
                     </div>
                 </div>
             </section>
