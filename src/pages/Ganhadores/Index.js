@@ -23,16 +23,16 @@ function Ganhadores() {
                 { data: '04/06/2025', numero: '98499', nome: 'Alexandre Machado' },
             ]
         },
-        // {
-        //     titulo: '2º sorteio',
-        //     data: [
-        //         { data: '30/07/2024', numero: '86015', nome: 'Gustavo Alberto dos Passos Mueller' },
-        //         { data: '30/07/2024', numero: '86029', nome: 'Ronei de Almeida Sampaio' },
-        //         { data: '30/07/2024', numero: '86100', nome: 'Luis Adriano Leite' },
-        //         { data: '30/07/2024', numero: '86127', nome: 'Hetel Bongini' },
-        //         { data: '30/07/2024', numero: '86128', nome: 'Isaac Alves da Silva' },
-        //     ]
-        // },
+        {
+            titulo: '2º sorteio',
+            data: [
+                { data: '04/07/2025', numero: '52447', nome: 'Ruth Maria Motta' },
+                { data: '04/07/2025', numero: '52448', nome: 'Salvador De Toni' },
+                { data: '04/07/2025', numero: '52472', nome: 'Edina Maria Lipke' },
+                { data: '04/07/2025', numero: '52481', nome: 'Daniela Martins da Silva' },
+                { data: '04/07/2025', numero: '52482', nome: 'Márcia Cristina Morais' },
+            ]
+        }
         // {
         //     titulo: '3º sorteio',
         //     data: [
