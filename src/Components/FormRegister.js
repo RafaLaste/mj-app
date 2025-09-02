@@ -96,7 +96,7 @@ export const FormRegister = () => {
 
     return (
         <section className="contact" id="cadastro" style={{ backgroundImage: `url(${'assets/img/contato.jpg'})` }}>
-            <div className="contactContent">
+            {/* <div className="contactContent">
                 <img src={`/promocao/assets/img/aviao-contato.png`} className="aviaoContato moveImg" alt="Aviao" />
                 <img src={`/promocao/assets/img/chapeu.png`} className="chapeuContato moveImg" alt="Chapeu" />
                 <h1 data-aos="flip-up" data-aos-duration="900">Cadastre-se agora</h1>
@@ -190,7 +190,7 @@ export const FormRegister = () => {
                         </div>
                     </fieldset>
                 </form>
-            </div>
+            </div> */}
         </section>
     );
 };
