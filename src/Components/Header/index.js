@@ -231,9 +231,9 @@ export function Header({ setNotification }) {
                                     </ul>
                                 ) : (
                                     <ul className="menu__items menu__items--signin clearfix">
-                                        <li className="menu__item menu__item--register btnParticipe">
+                                        {/*<li className="menu__item menu__item--register btnParticipe">
                                             <a href="/promocao#cadastro" onClick={(e) => handleScrollTo(e, '/#cadastro', -300)} className="menu__link menu__link--register">Participe</a>
-                                        </li>
+                                        </li> */}
                                         <li className="menu__item btnEntrar">
                                             <button ref={buttonRef} type="button" onClick={handleOpenLogin} className="menu__link  menu__link--login menuEntrar">
                                                 <img src={`/promocao/assets/img/user.png`} alt="" />

@@ -6,7 +6,7 @@ export const PromoSection = () => {
     return (
         <S.Container>
             <section className="promo" style={{ backgroundImage: `url(${'/promocao/assets/img/fundo-home-1.jpg'})` }}>
-                <ScrollLink
+                {/*<ScrollLink
                     to="cadastro"
                     style={{ cursor: 'pointer' }}
                     className="btnDefaultOrange"
@@ -16,7 +16,7 @@ export const PromoSection = () => {
 
                 >
                     Quero participar
-                </ScrollLink>
+                </ScrollLink>*/}
                 <div className="promo__container">
                     <div className="promo__presentation">
                         <div className="promo__row">
