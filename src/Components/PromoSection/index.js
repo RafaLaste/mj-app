@@ -33,7 +33,8 @@ export const PromoSection = () => {
                                     <h5 className="and"><span className="text">+</span></h5>
                                     <h2><span className="text">20 vales-compras</span></h2>
                                     <h1><span className="text">R$ 500,00<small>/cada</small></span></h1>
-                                    <p id="como-participar" className="buyWine"><span className="text">Compre um vinho <span className="spanBlue">Reservado Marcus James</span> <strong>e concorra!</strong></span></p>
+                                    {/* <p id="como-participar" className="buyWine"><span className="text">Compre um vinho <span className="spanBlue">Reservado Marcus James</span> <strong>e concorra!</strong></span></p> */}
+                                    <p className="buyWine"><span className="text">a promoção foi <span className="spanBlue"><strong>encerrada!</strong></span></span></p>
                                     <img
                                         src={`/promocao/assets/img/mala-home2.png`}
                                         alt="Mala Home"

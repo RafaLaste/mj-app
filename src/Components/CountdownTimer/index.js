@@ -34,7 +34,8 @@ export const CountdownTimer = ({ deadline }) => {
                 <img src={`/promocao/assets/img/nuvem2.png`} alt="Nuvem" className="nuvem2" />
 
                 <div className="timeleftContent">
-                    <h1>A promoção termina em:</h1>
+                    <h1>A promoção foi encerrada!</h1>
+                    {/* <h1>A promoção termina em:</h1>
                     <div className="timeJs" data-aos="fade-down">
                         <div className="timeJsSingle timeD">
                             <div className="timeSquare">{timeLeft.days}</div>
@@ -63,7 +64,7 @@ export const CountdownTimer = ({ deadline }) => {
                         offset={300}
                     >
                         Cadastre-se para participar
-                    </ScrollLink>
+                    </ScrollLink> */}
                 </div>
             </section>
         </S.Container>

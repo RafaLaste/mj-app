@@ -32,6 +32,16 @@ function Ganhadores() {
                 { data: '04/07/2025', numero: '52481', nome: 'Daniela Martins da Silva' },
                 { data: '04/07/2025', numero: '52482', nome: 'Márcia Cristina Morais' },
             ]
+        },
+        {
+            titulo: '3º sorteio',
+            data: [
+                { data: '08/08/2025', numero: '52447', nome: 'Keila Carlile Anziliero Pacheco' },
+                { data: '08/08/2025', numero: '52448', nome: 'Marco Tramasoli' },
+                { data: '08/08/2025', numero: '52472', nome: 'Antônio Francisco Dias Filho' },
+                { data: '08/08/2025', numero: '52481', nome: 'Sonia Maria Zerbetto Chagas' },
+                { data: '08/08/2025', numero: '52482', nome: 'Sheila Belz' },
+            ]
         }
         // {
         //     titulo: '3º sorteio',
