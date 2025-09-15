@@ -42,7 +42,7 @@ function Ganhadores() {
                 { data: '08/08/2025', numero: '52481', nome: 'Sonia Maria Zerbetto Chagas' },
                 { data: '08/08/2025', numero: '52482', nome: 'Sheila Belz' },
             ]
-        }
+        },
         {
             titulo: '4º sorteio',
             data: [
