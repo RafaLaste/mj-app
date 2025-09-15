@@ -43,31 +43,20 @@ function Ganhadores() {
                 { data: '08/08/2025', numero: '52482', nome: 'Sheila Belz' },
             ]
         }
-        // {
-        //     titulo: '3º sorteio',
-        //     data: [
-        //         { data: '24/08/2024', numero: '7869', nome: 'Jaimir Antonio Benvenutti' },
-        //         { data: '24/08/2024', numero: '7873', nome: 'Rosmari Hochmuller Fogaça' },
-        //         { data: '24/08/2024', numero: '7874', nome: 'Fabio Rogerio Felipe' },
-        //         { data: '24/08/2024', numero: '7875', nome: 'Edenir Loureiro' },
-        //         { data: '24/08/2024', numero: '7876', nome: 'Douglas Cezimbra Severo Rossini Brum' },
-        //         { data: '24/08/2024', numero: '7880', nome: 'Silvana Borges Coareli' },
-        //         { data: '24/08/2024', numero: '7881', nome: 'Seidi Ueta' },
-        //         { data: '24/08/2024', numero: '7883', nome: 'Hanniel Menezes Marques' },
-        //         { data: '24/08/2024', numero: '7885', nome: 'Marcos Pimentel Dandolini' },
-        //         { data: '24/08/2024', numero: '7887', nome: 'Luzia Borges dos Santos' },
-        //     ]
-        // },
-        // {
-        //     titulo: '4º sorteio',
-        //     data: [
-        //         { data: '13/09/2024', numero: '81655', nome: 'Natalia Felix Oliveira' },
-        //         { data: '13/09/2024', numero: '81669', nome: 'Silvina Figueiredo Porto' },
-        //         { data: '13/09/2024', numero: '81691', nome: 'Mirella Panizzi' },
-        //         { data: '13/09/2024', numero: '81704', nome: 'Larissa Massruhá Silva' },
-        //         { data: '13/09/2024', numero: '81712', nome: 'Shirley Lobo' },
-        //     ]
-        // },
+        {
+            titulo: '4º sorteio',
+            data: [
+                { data: '31/08/2025', numero: '58185', nome: 'Carla Pereira dos Santos' },
+                { data: '31/08/2025', numero: '58192', nome: 'Guilherme de Camillis' },
+                { data: '31/08/2025', numero: '58193', nome: 'Juliana Rodrigues Sandeski' },
+                { data: '31/08/2025', numero: '58194', nome: 'Bryan Ker' },
+                { data: '31/08/2025', numero: '58203', nome: 'Sandoval Fraga Rodrigues' },
+                { data: '31/08/2025', numero: '58212', nome: 'Janaina Nunes de Farias' },
+                { data: '31/08/2025', numero: '58228', nome: 'Miriam Almeida' },
+                { data: '31/08/2025', numero: '58236', nome: 'Roberto Rafael Zorzi' },
+                { data: '31/08/2025', numero: '58237', nome: 'Vanderson Xavier' },
+            ]
+        },
     ];
 
     return (
