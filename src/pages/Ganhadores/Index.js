@@ -55,6 +55,7 @@ function Ganhadores() {
                 { data: '31/08/2025', numero: '58228', nome: 'Miriam Almeida' },
                 { data: '31/08/2025', numero: '58236', nome: 'Roberto Rafael Zorzi' },
                 { data: '31/08/2025', numero: '58237', nome: 'Vanderson Xavier' },
+                { data: '31/08/2025', numero: '58203', nome: 'Heloise Maria Grassi' },
             ]
         },
     ];
